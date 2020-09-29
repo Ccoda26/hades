@@ -1,0 +1,260 @@
+header
+{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/wall.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    width: 300px;
+    
+    margin: 20px 50px;
+}
+
+header ul li{
+    width: 20px;
+    height: 5px;
+    list-style-type: none;
+    background-color: darkred;
+}
+
+header ul{
+    margin: 20px 20px;
+}
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clrs{
+    clear: both;
+}
+
+.block
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 800px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+
+.photo{
+    width: 30%;
+    
+}
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+
+
+.absolute{
+    position: absolute;
+   
+}
+
+.relative{
+    position: relative; 
+}
+
+.contain
+{
+    width: 80%;
+    
+    margin: auto;
+
+}
+
+div .txtL, .txtR{
+    width: 40%;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+
+.droite{
+    right:100px;
+}
+
+.gauche{
+    left: 100px;
+    top:-50px;
+}
+h2{
+    text-align: center;
+}
+
+.txtR p{
+    text-align: right;
+     
+}
+
+.txtL p{
+    text-align: left;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.rouge{
+    background-color: darkred;
+    margin-top: 40px;
+    height: 500px;
+    color: darkorange;
+}
+
+.jaune{
+    background-color: darkorange;
+    height: 500px;
+    color: darkred;
+}
+
+.grey{
+    background-color: gray;
+    height: 500px;
+    color: darkblue;
+}
+
+.bleu{
+    background-color: darkblue;
+    height: 500px;
+    color:gray;
+}
+
+.hades{
+    width: 35%;
+    top: -50px;
+}
+
+.thanatos{
+    width: 40%;
+    top: -50px;
+}
+
+.megarea{
+    width: 37%;
+    top: -50px;
+}
+
+section .block{
+    margin: 0;
+}
+section h1{
+    margin: 0;
+}
+
+#dieux{
+    background-image: url(../img/fond2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+}
+
+.bas{
+    width: 20%;
+}
+
+.rectangle{
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    border: solid 2px white;
+    line-height: 50%;
+}
+
+.athena{
+    top: 90px;
+    left: 200px;
+    width: 15%;
+}
+
+.un{
+    top: 350px;
+    left:200px;
+    background-color: violet;
+}
+.zeus{
+    top: 150px;
+    left: 530px;
+}
+
+.deux{
+    top: 350px;
+    left: 550px;
+    background-color: olivedrab;
+}
+
+.artemis{
+    top: 100px;
+    right: 200px;
+}
+
+.trois{
+    top: 340px;
+    right: 230px;
+    background-color: firebrick;
+}
+
+.demether{
+    bottom: 200px;
+    left: 200px;
+}
+
+.quatre{
+    bottom: 150px;
+    left: 230px;
+    background-color: lightgreen;
+}
+.poseidon{
+    bottom: 200px;
+    left: 470px;
+    width: 30%;
+}
+
+.cinq{
+    bottom: 150px;
+    left: 550px;
+    background-color: aquamarine;
+}
+
+.ares{
+    bottom: 200px;
+    right: 200px;
+}
+
+.six{
+    bottom: 150px;
+    right: 230px;
+    background-color: midnightblue;
+}
+
+@font-face{
+    font-family: 'hades';
+    src: url(../fonts/HADES.otf);
+}
+
+h1, h2{
+    font-family: 'hades';
+}
+
+p{
+    font-family: 'Roboto';
+}
