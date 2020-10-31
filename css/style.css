@@ -4,17 +4,16 @@ header
     height: 1000px;
     background-image: url(../img/wall.jpg);
     background-position: center;
-    background-size: cover;
+   /* background-size: cover;*/
 }
 
 .logo{
     width: 300px;
-    
     margin: 20px 50px;
 }
 
 header ul li{
-    width: 20px;
+    width: 30px;
     height: 5px;
     list-style-type: none;
     background-color: darkred;
@@ -22,6 +21,7 @@ header ul li{
 
 header ul{
     margin: 20px 20px;
+    cursor: pointer;
 }
 
 
@@ -46,12 +46,18 @@ header ul{
     text-align: center;
     color: white;
     line-height: 50px;
+    font-size: 30px;
 }
 
 
 .photo{
-    width: 30%;
+    width: 20%;
+    height: 250px;
     
+}
+
+.zagreus{
+    width: 30%;
 }
 
 .resp{
@@ -79,7 +85,7 @@ header ul{
 
 div .txtL, .txtR{
     width: 40%;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-right: 20px;
 }
 
@@ -105,14 +111,6 @@ h2{
     text-align: left;
 }
 
-.absolute{
-    position: absolute;
-}
-
-.relative{
-    position: relative;
-}
-
 .rouge{
     background-color: darkred;
     margin-top: 40px;
@@ -129,13 +127,13 @@ h2{
 .grey{
     background-color: gray;
     height: 500px;
-    color: darkblue;
+    color: darkslateblue;
 }
 
 .bleu{
     background-color: darkblue;
     height: 500px;
-    color:gray;
+    color: white;
 }
 
 .hades{
@@ -149,8 +147,8 @@ h2{
 }
 
 .megarea{
-    width: 37%;
-    top: -50px;
+    width: 33%;
+    top: -53px;
 }
 
 section .block{
@@ -168,83 +166,6 @@ section h1{
     width: 100%;
 }
 
-.bas{
-    width: 20%;
-}
-
-.rectangle{
-    width: 200px;
-    height: 50px;
-    border-radius: 10%;
-    border: solid 2px white;
-    line-height: 50%;
-}
-
-.athena{
-    top: 90px;
-    left: 200px;
-    width: 15%;
-}
-
-.un{
-    top: 350px;
-    left:200px;
-    background-color: violet;
-}
-.zeus{
-    top: 150px;
-    left: 530px;
-}
-
-.deux{
-    top: 350px;
-    left: 550px;
-    background-color: olivedrab;
-}
-
-.artemis{
-    top: 100px;
-    right: 200px;
-}
-
-.trois{
-    top: 340px;
-    right: 230px;
-    background-color: firebrick;
-}
-
-.demether{
-    bottom: 200px;
-    left: 200px;
-}
-
-.quatre{
-    bottom: 150px;
-    left: 230px;
-    background-color: lightgreen;
-}
-.poseidon{
-    bottom: 200px;
-    left: 470px;
-    width: 30%;
-}
-
-.cinq{
-    bottom: 150px;
-    left: 550px;
-    background-color: aquamarine;
-}
-
-.ares{
-    bottom: 200px;
-    right: 200px;
-}
-
-.six{
-    bottom: 150px;
-    right: 230px;
-    background-color: midnightblue;
-}
 
 @font-face{
     font-family: 'hades';
@@ -257,4 +178,71 @@ h1, h2{
 
 p{
     font-family: 'Roboto';
+    font-size: 16px;
+}
+
+
+
+.athena{
+    width: 22%;
+    
+}
+
+.zeus{
+    width: 30%;
+   
+}
+
+.artemis{
+    width: 22% ;
+}
+
+.demether{
+    width: 25% ;
+    bottom: -10px;
+
+}
+
+.poseidon{
+    width: 35%;
+    bottom: 0px;
+}
+
+.ares{
+    width: 25% ;
+    bottom: 0px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: centrer;
+    margin: 50px 20px 50px;
+}
+
+.centrer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.deux{
+    bottom: -16px;
+}
+
+
+.placer{
+    border: solid 1px black;
+    width: 200px;
+    padding: 5px 20px;   
+    color: aliceblue;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+}
+
+.autoresp{
+    width: 100%;
+    height: 250px;
 }
